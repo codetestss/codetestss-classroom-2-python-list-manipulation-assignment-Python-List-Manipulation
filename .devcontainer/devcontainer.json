@@ -1,0 +1,14 @@
+{
+  "name": "Python Development Environment",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
+  "extensions": [
+    "formulahendry.code-runner"
+  ],
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python",
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+      "python": "clear && python -u"
+    }
+  }
+}
